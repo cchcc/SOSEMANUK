@@ -25,17 +25,11 @@ The implementation consists of the following files:
 
 
 ecrypt-config.h
-
 ecrypt-machine.h
-
 ecrypt-portable.h
-
 ecrypt-sync.c
-
 ecrypt-sync.h
-
 sosemanuk.h
-
 sosemanuk.c
 
 
@@ -45,11 +39,10 @@ been slightly modified to match the SOSEMANUK implementation, as is
 prescribed by that API.
 
 
-
 The sosemanuk.h file contains a definition of a macro:
 
 
-#define SOSEMANUK_ECRYPT
+\#define SOSEMANUK_ECRYPT
 
 
 By removing this line, the implementation is made independant of the
